@@ -1,0 +1,79 @@
+body{
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #4352A1;
+}
+
+.banner {
+  background-image: url("https://cdn.wallpapersafari.com/75/37/upcGjU.png");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.banner h1 {
+  font-size: 38px;
+}
+
+.link {
+  background-image: linear-gradient(to bottom, white, yellow);
+  color: grey;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.link:hover {
+  background-image: linear-gradient(to bottom, rgb(253, 253, 178), yellow);
+  color: rgb(173, 151, 10);
+  font-size: 25px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 350px;
+  }
+}
